@@ -1,0 +1,81 @@
+.padded-cont {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.blue-cont {
+    background-color: var(--lightblue);
+    border-color: var(--navy);
+    border-width: 30px;
+}
+
+.basics-listing li {
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.AboutSection {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+    .description {
+        flex-basis: 50%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-right: 30px;
+    }
+
+    .half-flex {
+        flex-basis: 50%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+
+    
+    .img-container {
+        padding-left: 30px;
+        flex-basis: 50%;
+        justify-content: center;
+    }
+
+    .profile-img {
+        border-radius: 50%;
+        max-width: 70%;
+        height: auto;
+    }
+
+    .xc-img {
+        max-width: 80%;
+        height: auto;
+        border: 2px solid black;
+    }
+
+    .codeit-img {
+        max-width: 60%;
+        height: auto;
+        align-self: center;
+        margin: 20px;
+    }
+
+    .sinceparkland-img {
+        width: 84%;
+        height: auto;
+        align-self: center;
+        margin: 20px;
+    }
+
+    .surfing-img {
+        width: 100%;
+        height: auto;
+        align-self: center;
+        margin: 20px;
+        border: 2px solid black;
+    }
