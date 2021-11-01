@@ -8,7 +8,7 @@ import Work from './Components/Work.js'
 import Footer from './Components/Footer.js'
 
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
   Link
