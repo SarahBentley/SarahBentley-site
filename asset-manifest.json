@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/sarahbentley/static/css/main.36aa33f4.chunk.css",
+    "main.js": "/sarahbentley/static/js/main.3b727c80.chunk.js",
+    "main.js.map": "/sarahbentley/static/js/main.3b727c80.chunk.js.map",
+    "runtime-main.js": "/sarahbentley/static/js/runtime-main.a5abef7d.js",
+    "runtime-main.js.map": "/sarahbentley/static/js/runtime-main.a5abef7d.js.map",
+    "static/js/2.20791169.chunk.js": "/sarahbentley/static/js/2.20791169.chunk.js",
+    "static/js/2.20791169.chunk.js.map": "/sarahbentley/static/js/2.20791169.chunk.js.map",
+    "static/js/3.90acfa4f.chunk.js": "/sarahbentley/static/js/3.90acfa4f.chunk.js",
+    "static/js/3.90acfa4f.chunk.js.map": "/sarahbentley/static/js/3.90acfa4f.chunk.js.map",
+    "index.html": "/sarahbentley/index.html",
+    "static/css/main.36aa33f4.chunk.css.map": "/sarahbentley/static/css/main.36aa33f4.chunk.css.map",
+    "static/js/2.20791169.chunk.js.LICENSE.txt": "/sarahbentley/static/js/2.20791169.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a5abef7d.js",
+    "static/js/2.20791169.chunk.js",
+    "static/css/main.36aa33f4.chunk.css",
+    "static/js/main.3b727c80.chunk.js"
+  ]
+}
