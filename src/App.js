@@ -10,8 +10,7 @@ import Footer from './Components/Footer.js'
 import {
   HashRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 
 class App extends Component {

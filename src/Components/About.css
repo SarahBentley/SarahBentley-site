@@ -17,7 +17,6 @@
 .AboutSection {
     margin: auto;
     display: flex;
-    flex-direction: row;
     justify-content: center;
 }
 
@@ -79,3 +78,38 @@
         margin: 20px;
         border: 2px solid black;
     }
+
+@media only screen and (max-width: 800px) {
+    .padded-cont {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .AboutSection {
+        margin: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .description {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-right: 0px;
+        flex-basis: 100%;
+    }
+
+    .half-flex {
+        padding-top: 10px;
+        display: flex;
+        flex-basis: 100%;
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    
+
+}

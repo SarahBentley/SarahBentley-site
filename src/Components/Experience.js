@@ -12,10 +12,10 @@ class Experience extends Component {
         return (
             <>
                 <div className="ExperienceSection">
-                    <div>
-                        <hr width="200px" className="Blue"></hr>
-                        <h2 className="title left">Experience</h2>
-                        <hr width ="200px"className="Blue"></hr>
+                    <div className="left">
+                        <hr className="line" className="Blue"></hr>
+                        <h2>Experience</h2>
+                        <hr className="line"className="Blue"></hr>
                     </div>
                     <div className="right">
                         <h4 className="experience-title">SpaceNet Engineer</h4>
@@ -65,10 +65,10 @@ class Experience extends Component {
                     </div>
                 </div>
                 <div className="ExperienceSection">
-                    <div>
-                        <hr width="90px" className="Blue"></hr>
-                        <h2 className="title left">Skills</h2>
-                        <hr width ="90px"className="Blue"></hr>
+                    <div className="left">
+                        <hr className="Blue"></hr>
+                        <h2 className="title">Skills</h2>
+                        <hr className="Blue"></hr>
                     </div>
                     <div className="right">
                         <ul>

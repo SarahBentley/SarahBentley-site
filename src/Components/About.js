@@ -55,7 +55,7 @@ I am a sophomore at Massachusetts Institute of Technology from Los Angeles, Cali
                         <h4 className="u-bold u-textCenter">Since Parkland</h4>
                         <a href="https://sinceparkland.org/"><img className="sinceparkland-img" src="since_parkland_3.png"></img></a>
                         <p>
-                            In high school, I worked on a projected called <a href="https://sinceparkland.org/">Since Parkland</a>, in which I worked with a team of students to write a total of 1,200 obituaries for the teens that had died to gun violence since the shooting at Parkland.
+                            In high school, I worked on a project called <a href="https://sinceparkland.org/">Since Parkland</a>, in which I worked with a team of students to write a total of 1,200 obituaries for the teens who had died to gun violence since the shooting at Parkland.
                         </p>
                     </div>
                 </div>
@@ -66,10 +66,10 @@ I am a sophomore at Massachusetts Institute of Technology from Los Angeles, Cali
                         <hr width="200px" className="Blue"></hr>
                         <ul>
                             <li><p>Surfing - I've surfed for nearly all my life!</p></li>
-                            <li><p>Food - I enjoy health foods and love to cook up simple yet nutritious meals whenever I get the chance.</p></li>
+                            <li><p>Food - I enjoy healthy food and love to cook up simple yet nutritious meals whenever I get the chance.</p></li>
                             <li><p>Athleticism - I'm fascinated by the human body and how it balances the stress-recovery cycle of being an athlete.</p></li>
                             <li><p>Math - While a lot of the work I've done is CS-focused, few things provide me more intellectual stimulation and sense of accomplishment than a good math problem.</p></li>
-                            <li><p>Crossfit - I'm both a fan of Crossfit as a sport and a path to living an overall healthy, fit lifestyle.</p></li>
+                            <li><p>Crossfit - I'm a fan of Crossfit, both as a sport and a path to living an overall healthy, fit lifestyle.</p></li>
 
                         </ul>          
                     </div>

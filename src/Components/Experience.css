@@ -25,10 +25,6 @@
     border-color: #082046;
 }
 
-.title {
-    padding-bottom: 15px;
-}
-
 .experience-listings {
     margin-left: 30px;
     font-size: 18px;
@@ -43,4 +39,47 @@
 .experience-subtitle {
     margin-top: 10px;
     font-size: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+    .ExperienceSection {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 0px;
+        margin: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: var(--lightblue);
+    }
+
+    .left {
+        padding-left: 8px;
+        padding-right: 8px;
+        flex-basis: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .right {
+        flex-basis: 100%;
+        justify-content: center;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .experience-listings {
+        margin-left: 0px;
+        font-size: 10px;
+        margin-bottom: 40px;
+    }
+
+    .experience-subtitle {
+        margin-top: 3px;
+        font-size: 12px;
+    }
+
+    .experience-title {
+        font-weight: bold;
+        font-size: 13px;
+    }
 }

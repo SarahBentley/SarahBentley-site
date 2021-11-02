@@ -15,9 +15,6 @@ class Footer extends Component {
                     <h3>
                         sbentley@mit.edu
                     </h3>
-                    <h3>
-                        310-909-3709
-                    </h3>
                     <a href="https://www.linkedin.com/in/sarah-bentley-2722a51ab/"><img className="Footer-img" src="linkedin_logo.png"></img></a>
                 </div>
             </footer>

@@ -20,10 +20,6 @@ class Header extends Component {
                         <h4 className = "subtitle">Pursuing BS in mathematics with computer science</h4>
                         <h4 className="subtitle">Interests: software engineering and web development</h4>
                     </div>
-
-                    {/* <div className="img-container">
-                        <img className="img" src='profile_pic.jpg' />
-                    </div> */}
                 </div>
             </div>
         )
