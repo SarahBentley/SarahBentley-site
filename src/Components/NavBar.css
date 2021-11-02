@@ -64,6 +64,9 @@
 
 
 @media only screen and (max-width: 800px) {
+  .NavBar-container {
+    height: 30px;
+  }
   .new {
     opacity: 0;
     color: var(--navy);
