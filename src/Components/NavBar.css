@@ -61,3 +61,24 @@
     opacity: 1.4;
     font-weight: bold;
   }
+
+
+@media only screen and (max-width: 800px) {
+  .new {
+    opacity: 0;
+    color: var(--navy);
+    font-size: 35px;
+  }
+
+  .old, .new {
+      transition: opacity 0.5s ease-in-out;
+  }
+
+  .wrap:hover .old {
+      opacity: 1;
+  }
+  .wrap:hover .new {
+      opacity: 0;
+  }
+
+}

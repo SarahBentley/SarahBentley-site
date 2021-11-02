@@ -85,6 +85,12 @@
         padding-bottom: 20px;
     }
 
+    .img-container {
+        padding-left: 0px;
+        flex-basis: 50%;
+        justify-content: center;
+    }
+
     .AboutSection {
         margin: 0px;
         display: flex;
@@ -97,7 +103,8 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
-        padding-right: 0px;
+        padding-right: 8px;
+        padding-left: 8px;
         flex-basis: 100%;
     }
 
@@ -110,6 +117,15 @@
         padding-left: 8px;
         padding-right: 8px;
     }
+
+    .surfing-img {
+        width: 100%;
+        height: auto;
+        align-self: center;
+        margin: 30px;
+        border: 2px solid black;
+    }
+
     
 
 }
