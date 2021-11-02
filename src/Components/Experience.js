@@ -26,7 +26,7 @@ class Experience extends Component {
                                 <p><li>Collaborate closely with a team on building the app from the ground up, developing optimal database models, efficient backend simulation functions, API routes and a user-friendly frontend.</li></p>
                                 <p><li>Utilize tools such as Bootstrap, JQuery, HTML, Javascript and external libraries to build forms, serialize user inputs to match schemas, and send and retrieve data through the backend for simulation analysis purposes.</li></p>
                                 <p><li>Use HTML Canvas to design space travel visualizations and Chart.js to plot graphs displaying abstract events.</li></p>
-                                <pi><li>Presented the project to groups at NASA and contributed to publication for the AIAA ASCEND conference.</li></pi>
+                                <p><li>Presented the project to groups at NASA and contributed to publication for the AIAA ASCEND conference.</li></p>
                             </ul>
 
                         <h4 className="experience-title">UX Engineer for Computational Interface</h4>

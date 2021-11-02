@@ -19,6 +19,7 @@ class Header extends Component {
                         <h4 className="subtitle">MIT Class of 2024</h4>
                         <h4 className = "subtitle">Pursuing BS in mathematics with computer science</h4>
                         <h4 className="subtitle">Interests: software engineering and web development</h4>
+                        <h3 className="subtitle sidenote">I coded this site as a React App with routing and custom CSS styling. Check out the GitHub repo <a href="https://github.com/SarahBentley/sarahbentley">here.</a></h3>
                     </div>
                 </div>
             </div>

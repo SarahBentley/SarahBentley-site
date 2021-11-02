@@ -16,7 +16,7 @@ class About extends Component {
                 <h2 className="u-textCenter">About Me</h2>
                 <hr width ="100px"></hr> */}
                 <div className="AboutSection padded-cont">
-                    <div className="img-container">
+                    <div className="half-flex">
                         <img className="profile-img" src="profile_pic.jpg"/>
                     </div>
                     <div className="description">
@@ -32,8 +32,8 @@ I am a sophomore at Massachusetts Institute of Technology from Los Angeles, Cali
                 <hr width="200px" className="Blue"></hr>
 
                 <div className="AboutSection padded-cont">
-                    <div className="img-container">
-                        <img className="xc-img" src="running_photo.JPG"></img>
+                    <div className="half-flex">
+                        <img className="u-textCenter xc-img" src="running_photo.JPG"></img>
                     </div>
                     <div className="half-flex">
                         <h4 className="u-bold u-textCenter">MIT Cross Country and Track</h4>

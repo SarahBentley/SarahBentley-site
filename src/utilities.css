@@ -20,7 +20,7 @@
 :root {
   --primary: #396dff;
   --primary--dim: #6987db;
-  --darkgrey: #d4d4d4;
+  --darkgrey: #242424;
   --medgrey: #e0e0e0;
   --grey: #f7f7f7;
   --white: #fff;
@@ -164,7 +164,8 @@ a:hover {
     font-size: 14px;
   }
 
-  body {
-    font-size: 12px;
+  p {
+    font-size: 14px;
   }
+
 }

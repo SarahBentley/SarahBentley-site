@@ -46,12 +46,14 @@
     }
 
     .profile-img {
+        align-self: center;
         border-radius: 50%;
         max-width: 70%;
         height: auto;
     }
 
     .xc-img {
+        align-self: center;
         max-width: 80%;
         height: auto;
         border: 2px solid black;
@@ -86,7 +88,8 @@
     }
 
     .img-container {
-        padding-left: 0px;
+        padding-right: 8px;
+        padding-left: 8px;
         flex-basis: 50%;
         justify-content: center;
     }
