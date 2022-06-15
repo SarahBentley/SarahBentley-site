@@ -22,9 +22,9 @@ class About extends Component {
                     <div className="description">
                         <h2 className="u-textCenter">Hello!</h2>
                         <p>
-I am a sophomore at Massachusetts Institute of Technology from Los Angeles, California majoring in math with computer science. At MIT, I am using my studies to combine analytical and creative approaches to problem-solving. In my programming courses, I have learned not only the building blocks of Python but also best style practices, program parsimony, and how to write clean, comprehensible code. Through involved coding labs such as the development of an in-depth LISP Interpreter, I have a deep understanding of computer environments and learned to value efficiency over pure functionality.</p>
+I am a rising junior at Massachusetts Institute of Technology from Los Angeles, California majoring in math with computer science. At MIT, I am using my studies to combine analytical and creative approaches to problem-solving. In my programming courses, I have learned not only the building blocks of Python but also best style practices, program parsimony, and how to write clean, comprehensible code. Through involved coding labs such as the development of an in-depth LISP Interpreter, I have a deep understanding of computer environments and learned to value efficiency over pure functionality.</p>
                         <p>
-                            Throughout my time at MIT, I've also grown especially interested in web development. Check out my <Link to="/experience">experience</Link> page to learn about all the projects I have worked on.</p>
+                            Throughout my time at MIT, I've also grown especially interested in web development, modeling, and simulation. Check out my <Link to="/experience">experience</Link> page to learn about all the projects I have worked on.</p>
                     </div>
                 </div>
                 <hr width="200px" className="Blue"></hr>
