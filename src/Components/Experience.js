@@ -18,6 +18,18 @@ class Experience extends Component {
                         <hr className="line Blue"></hr>
                     </div>
                     <div className="right">
+                        <h4 className="experience-title">Mission Design and Navigation Intern</h4>
+                        <h4 className="experience-subtitle">Blue Origin</h4>
+                        <h4 className="experience-subtitle">Jun. - Aug. 2023</h4>
+                            <ul className="experience-listings">
+                                <p><li>Developed a flight critical data access service used to store and determine the trajectory of a vehicle.</li></p>
+                                <p><li>Designed SQL database schemas to optimize understandability, speed, and cost-effectiveness.</li></p>
+                                <p><li>Leveraged key backend frameworks such as Docker, FastAPI, Pydantic, and more.</li></p>
+                                <p><li>Conducted a series of trade studies on the optimal software architecture to suit my team's needs.</li></p>
+                                <p><li>Focused on code quality, readability, and refactorization to ease the maintenance of my service after the end of my internship.</li></p>
+                                <p><li>Developed skills for communicating between engineers in different fields, such as aerospace, mechanical, and software engineering.</li></p>
+                            </ul>
+
                         <h4 className="experience-title">Software Engineer Intern</h4>
                         <h4 className="experience-subtitle">Blue Origin</h4>
                         <h4 className="experience-subtitle">Jun. - Aug. 2022</h4>
