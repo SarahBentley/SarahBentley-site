@@ -19,9 +19,9 @@ const About = () => {
                     <div className="description">
                         <h2 className="u-textCenter">Hello!</h2>
                         <p>
-I am a senior at Massachusetts Institute of Technology from Los Angeles, California double majoring in math and AI and decision-making. At MIT, I am using my studies to combine analytical and creative approaches to problem-solving. In my programming courses, I have learned not only the building blocks of Python but also best style practices, program parsimony, and how to write clean, comprehensible code. I enjoy using computer science to solve advanced mathematical problems, especially those involving linear algebra, optimization, and combinatorics. I also study statistics to gain a theoretical understanding of modern advances in machin learning.</p>
+I am a rising Master's student at Massachusetts Institute of Technology conducting research in artificial intelligence and machine learning from a mathematical perspective. In June of 2024, I received my Bachelor's degree from MIT with a double major in math and AI and decision-making. I use my studies to combine analytical and creative approaches to problem-solving. I especially enjoy exploring the intersection of optimization, combinatorics, and linear algebra with the study of computation.</p>
                         <p>
-                            Throughout my time at MIT, I've specifically grown interested in aerospace, modeling, and simulation. Check out my <Link to="/experience">experience</Link> page to learn about all the projects I have worked on.</p>
+                            Check out my <Link to="/experience">experience</Link> page to learn about my research and internships.</p>
                     </div>
                 </div>
                 {/* <hr width="200px" className="Blue"></hr>
