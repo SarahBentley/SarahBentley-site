@@ -1,0 +1,15 @@
+
+  .Footer-container li {
+    display: inline-block;
+    padding-bottom: 20px;
+  }
+  
+  .Footer-linkContainer {
+    padding: var(--m) var(--s);
+    text-align: center;
+  }
+
+  .Footer-img {
+    max-width: 5%;
+    height: auto;
+  }
