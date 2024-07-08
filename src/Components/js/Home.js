@@ -8,7 +8,7 @@ const Home = () => {
         return (
             <div>
                 <StateDiagram />
-                <div className="header">
+                {/* <div className="header">
                     <div className="name">
                         <h1 className="title">Sarah Bentley</h1>
                     </div>
@@ -18,7 +18,7 @@ const Home = () => {
                         <h4 className="subtitle">Interests: optimization, combinatorics, statistics, modeling and simulation, and data science</h4>
                         <h3 className="subtitle sidenote">I coded this site as a React App with routing and custom CSS styling. Check out the GitHub repo <a href="https://github.com/SarahBentley/sarahbentley">here.</a></h3>
                     </div>
-                </div>
+                </div> */}
             </div>
         )
 }
