@@ -10,7 +10,7 @@ import Lifestyle from './Components/js/Lifestyle.js'
 // import MathPost from './Components/js/MathPost.js'
 
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Switch,
   Route
 } from "react-router-dom";
@@ -22,13 +22,13 @@ export default function App() {
         {/* Conditional render NavBar based on the route */}
         <Route
           render={({ location }) =>
-            location.pathname !== '/sarahbentley' && <NavBar />
+            location.pathname !== '/' && <NavBar />
           }
         />
         
         <div className="Switch-container">
           <Switch>
-            <Route exact component={Home} path="/sarahbentley" />
+            <Route exact component={Home} path="/" />
             <Route exact component={About} path="/about" />
             <Route exact component={Experience} path="/experience" />
             <Route exact component={Math} path="/math_cs" />
