@@ -17,7 +17,7 @@ import {
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/sarahbentley">
       <div className='App-container'>
         {/* Conditional render NavBar based on the route */}
         <Route
