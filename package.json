@@ -2,7 +2,7 @@
   "name": "sbent-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sarahbentley.github.io/",
+  "homepage": "https://sarahbentley.github.io/sarahbentley",
   "dependencies": {
     "@testing-library/jest-dom": "^5.13.0",
     "@testing-library/react": "^11.2.7",
