@@ -24,7 +24,8 @@
   --medgrey: #e0e0e0;
   --grey: #f7f7f7;
   --white: #fff;
-  --navy: #082046;
+  --navy: #0d326e;
+  --lightnavy: #0d326e67;
   --blue: #2a8ab5;
   --lightblue: #63c7f6b6;
   --black: #000000;
@@ -43,6 +44,7 @@ body {
   font-size: 22px;
   font-weight: 300px;
 }
+
 
 h1 {
   margin: 0;
@@ -71,6 +73,8 @@ h4 {
 }
 
 h3 {
+  font-family: "Baskervville", serif;
+  font-weight: 75;
   margin: 0;
   font-size: 20px;
 }
