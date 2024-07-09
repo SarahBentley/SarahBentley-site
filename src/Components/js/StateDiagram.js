@@ -39,16 +39,16 @@ const StateDiagram = () => {
       for (let i = 0; i < input.length; i++) {
           if (state === 'home') {
               if (input[i] === '0') state = 'about';
-              else if (input[i] === '1') state = 'lifestyle';
+              else if (input[i] === '1') state = 'experience';
           } else if (state === 'about') {
               if (input[i] === '0') state = 'math';
               else if (input[i] === '1') state = 'about';
           } else if (state === 'lifestyle') {
               if (input[i] === '0') state = 'lifestyle';
-              else if (input[i] === '1') state = 'random';
-          } else if (state === 'random') {
-              if (input[i] === '0') state = 'random';
-              else if (input[i] === '1') state = 'random';
+              else if (input[i] === '1') state = 'lifestyle';
+          } else if (state === 'experience') {
+              if (input[i] === '0') state = 'experience';
+              else if (input[i] === '1') state = 'lifestyle';
           } else if (state === 'math') {
             if (input[i] === '0') state = 'math';
             else if (input[i] === '1') state = 'math';
