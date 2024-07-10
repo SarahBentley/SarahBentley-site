@@ -52,9 +52,9 @@ const StateDiagram = () => {
           } else if (state === 'math') {
             if (input[i] === '0') state = 'math';
             else if (input[i] === '1') state = 'math';
-      }
+          }}
       return state;
-  }};
+  };
 
   const handleSubmit = () => {
       if (!/^[01]+$/.test(inputValue)) {
@@ -65,11 +65,12 @@ const StateDiagram = () => {
       let path = '';
 
       // Define redirection paths based on final state
+      console.log(finalState)
       if (finalState === 'about') path = '/about';
       else if (finalState === 'lifestyle') path = '/lifestyle';
       else if (finalState === 'math') path = '/math';
-      else if (finalState === 'random') path = '/random';
-      else if (finalState === 'home') path = '/home';
+      else if (finalState === 'experience') path = '/experience';
+      else if (finalState === 'home') path = '/';
 
       history.push(path);
   };
