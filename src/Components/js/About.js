@@ -19,7 +19,7 @@ const About = () => {
                     <div className="description">
                         <h2 className="u-textCenter">Hello!</h2>
                         <p>
-I am a rising Master's student at Massachusetts Institute of Technology conducting research in artificial intelligence and machine learning from a mathematical perspective. In June of 2024, I received my Bachelor's degree from MIT with a double major in math and AI and decision-making. I use my studies to combine analytical and creative approaches to problem-solving. I especially enjoy exploring the intersection of optimization, combinatorics, and linear algebra with the study of computation.</p>
+I am a Master's student at Massachusetts Institute of Technology conducting research in artificial intelligence and machine learning from a mathematical perspective. In June of 2024, I received my Bachelor's degree from MIT with a double major in math and AI and decision-making. I especially enjoy exploring the intersection of machine learning, combinatorics, and linear algebra with the theory of computation. I'm currently using tools in theory of computation to study the reasoning capabilities of large language models.</p>
                         <p>
                             Check out my <Link to="/experience">experience</Link> page to learn about my research and internships.</p>
                     </div>
@@ -58,15 +58,16 @@ I am a rising Master's student at Massachusetts Institute of Technology conducti
                         <hr width="200px" className="Blue"></hr>
                         <ul>
                             <li><p>Surfing - I've surfed for nearly all my life!</p></li>
-                            <li><p>Food - I enjoy healthy food and love to cook up simple yet nutritious meals whenever I get the chance.</p></li>
-                            <li><p>Athleticism - I'm fascinated by the human body and how it balances the stress-recovery cycle of being an athlete.</p></li>
+                            <li><p>Hiking - I am a big fan of long hikes and have dreams of many backpacking trips.</p></li>
+                            <li><p>The science of athletics - I'm fascinated by the human body and how it balances the stress-recovery cycle of being an athlete.</p></li>
                             <li><p>Math - While a lot of the work I've done is CS-focused, few things provide me more intellectual stimulation and sense of accomplishment than a good math problem.</p></li>
-                            <li><p>Teaching - I worked as an undergraduate assistant for MIT's linear algebra course and absolutely loved digging deeper into the subject and explaining it to students through a new lense.</p></li>
+                            <li><p>Teaching - I have worked as a teaching assistant for many courses at MIT and I have absolutely loved digging deeper into each subject and explaining them to students through new viewpoints.</p></li>
                             <li><p>Crossfit - I'm a fan of Crossfit, both as a sport and a path to living an overall healthy, fit lifestyle.</p></li>
 
                         </ul>          
                     </div>
                     <div className="half-flex">
+                        <img alt='' className="surfing-img" src="hiking.jpeg"></img>
                         <img alt='' className="surfing-img" src="surfing.jpeg"></img>
                     </div>
                 </div>

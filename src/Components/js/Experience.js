@@ -12,13 +12,21 @@ const Experience = () => {
                         <hr className="line Blue"></hr>
                     </div>
                     <div className="right">
+                    <h4 className="experience-title">ML Interpretability Researcher</h4>
+                        <h4 className="experience-subtitle">MIT, Laboratory for Information & Decision Systems</h4>
+                        <h4 className="experience-subtitle">Sept. 2024 - Present</h4>
+                            <ul className="experience-listings">
+                            <p><li>Use empirical and theoretical methods to study underlying ‘world models’ of high-performing large language models.</li></p>
+                            </ul>
+
                         <h4 className="experience-title">Theory of Machine Learning Research Intern</h4>
                         <h4 className="experience-subtitle">EPFL, Lausanne Switzerland</h4>
                         <h4 className="experience-subtitle">Jun. - Aug. 2024</h4>
                             <ul className="experience-listings">
-                                <p><li>Conduct research as an intern in the Theory of Machine Learning lab at École polytechnique fédérale de Lausanne.</li></p>
+                            <p><li>Study transformers' reasoning capacity through simulation of deterministic finite automata and hidden Markov models.</li></p>
+                            <p><li>Examine the theoretical expressiveness of transformers with architectural changes such as localized attention, relative positional encoding, scratchpad training, adjusted teacher-forcing, and recency bias that may be suitable for reasoning.</li></p>
+                            <p><li>Build a transformer from scratch and run experiments on DFAs and HMMs using such architectural adjustments.</li></p>
                             </ul>
-
                         <h4 className="experience-title">Mission Design and Navigation Intern</h4>
                         <h4 className="experience-subtitle">Blue Origin</h4>
                         <h4 className="experience-subtitle">Jun. - Aug. 2023</h4>
@@ -95,6 +103,13 @@ const Experience = () => {
                         <hr className="Blue"></hr>
                     </div>
                     <div className="right">
+                        <h4 className="experience-title">Theory of Computation (18.404) Graduate TA</h4>
+                        <h4 className="experience-subtitle">MIT</h4>
+                        <h4 className="experience-subtitle">Feb. - May. 2024</h4>
+                            <ul className="experience-listings">
+                                <p><li>Duties: develop material for and teach weekly recitations, hold office hours, hold review sessions, and help with course administration tasks.</li></p>
+                            </ul>
+
                         <h4 className="experience-title">Probability and Random Variables (18.600) Undergraduate TA</h4>
                         <h4 className="experience-subtitle">MIT</h4>
                         <h4 className="experience-subtitle">Feb. - May. 2024</h4>
@@ -115,6 +130,18 @@ const Experience = () => {
                             <ul className="experience-listings">
                                 <p><li>Duties: hold weekly office hours and review sessions.</li></p>
                             </ul>
+                    </div>
+                </div>
+                <div className="ExperienceSection">
+                    <div className="left">
+                        <hr className="Blue"></hr>
+                        <h2 className="title">Courses</h2>
+                        <hr className="Blue"></hr>
+                    </div>
+                    <div className="right">
+                 
+                        <p className="experience-subtitle"> Statistical Learning Theory, Deep Learning, Algorithms, ML, Computer Vision, Real Analysis, Combinatorics, Linear Algebra, Group Theory, Probability, Combinatorial Optimization, Statistical Data Analysis, Optimization Methods, and AI.</p>
+
                     </div>
                 </div>
                 <div className="ExperienceSection">
