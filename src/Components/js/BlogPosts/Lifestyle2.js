@@ -12,8 +12,8 @@ const Lifestyle2 = () => {
           <img src="https://ik.imagekit.io/j91ks0fc6/surfing/E1B8E867-9735-4AFD-A6D6-36302ACE4D57_1_102_o.jpeg?updatedAt=1728152749480" alt="Sample Image" />
         </div>
       </div>
-      <h1>Surfing with the fam!</h1>
-      <h3>Family surf flicks.</h3>
+      <h1>Family surf flicks</h1>
+      <h3>Puerto Vallarta, Mexico.</h3>
       <div className="grid-container">
         <div className="grid-elt four-two">
           <img src="https://ik.imagekit.io/j91ks0fc6/surfing/D30CA89F-35A9-421C-90E1-0F22FAF9CA7D_1_102_o.jpeg?updatedAt=1728152749567" alt="Sample Image" />

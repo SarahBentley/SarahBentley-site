@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import Lifestyle1 from './BlogPosts/Lifestyle1';
 import Lifestyle2 from './BlogPosts/Lifestyle2';
+import Lifestyle3 from './BlogPosts/Lifestyle3';
 import '../css/Blog.css'
 
 const LifestylePost = () => {
@@ -18,6 +19,11 @@ const LifestylePost = () => {
     return (
       <div className="blog-post">
         <Lifestyle2/>
+      </div>
+  )} else if (id === '3') {
+    return (
+      <div className="blog-post">
+        <Lifestyle3/>
       </div>
   )
   }

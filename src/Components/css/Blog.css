@@ -56,6 +56,16 @@
     grid-row: span 1
   }
 
+  .six-two {
+    grid-column: span 6;
+    grid-row: span 2
+  }
+
+  .twelve-two {
+    grid-column: span 12;
+    grid-row: span 2
+  }
+
   /* Place title content at the top of the image */
   .grid-elt-content {
     position: absolute;
