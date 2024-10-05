@@ -1,31 +1,98 @@
-/* styles.css */
-.blog-page {
-    font-family: "Baskervville", serif;
-    padding: 20px;
-    max-width: 800px;
-    margin: auto;
+/* General styling for the blog post container */
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr); /* Default 12 equal-width columns */
+    grid-auto-rows: 150px; /* Default row height */
+    gap: 20px; /* Space between posts */
   }
   
-  .article-list {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  .grid-elt {
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
   }
   
-  .article-item {
-    padding: 15px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+  .grid-elt img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
   }
   
-  .article-item:hover {
-    background-color: #f0f0f0;
+  .grid-elt:hover img {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+  }
+
+  .four-two {
+    grid-column: span 4;
+    grid-row: span 2
+  }
+
+  .seven-four {
+    grid-column: span 7;
+    grid-row: span 4
+  }
+
+  .five-two {
+    grid-column: span 5;
+    grid-row: span 2
+  }
+
+  .three-two {
+    grid-column: span 3;
+    grid-row: span 2
+  }
+
+  .two-two {
+    grid-column: span 2;
+    grid-row: span 2
+  }
+
+  .six-one {
+    grid-column: span 6;
+    grid-row: span 1
+  }
+
+  /* Place title content at the top of the image */
+  .grid-elt-content {
+    position: absolute;
+    top: 20%; /* Position at the top of the image */
+    left: 50%;
+    transform: translateX(-50%); /* Center horizontally */
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 8px 12px; /* Increased padding for more space */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for better visibility */
+    opacity: 0; /* Start with hidden opacity */
+    transition: opacity 0.3s ease; /* Transition effect for the title */
+    width: auto; /* Dynamic width based on content */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
   }
   
+  .grid-elt:hover .grid-elt-content {
+    opacity: 1; /* Show content on hover */
+  }
+  
+  .grid-elt-content h2 {
+    font-family: "Allura", cursive;
+    font-weight: 200;
+    text-align: center;
+    font-size: 30px; /* Title font size */
+    color: black;
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis; /* Add ellipsis if the text is too long */
+  }
+  
+
   .blog-post {
     text-align: left;
+    margin: 20px
   }
   
   .blog-post button {
@@ -44,9 +111,18 @@
   
   /* Custom Markdown Styles */
   .blog-post h1 {
-    font-size: 2em;
+    text-align: center;
+    font-weight: normal;
+    font-size: 2.5em;
     margin-top: 20px;
-    color: #333;
+    text-shadow: none; /* Ensure no shadow */
+    -webkit-text-stroke: 0; /* Remove any outline/stroke */
+  }
+  .blog-post h3 {
+    text-align: center;
+    font-size: 0.8em;
+    margin: 15px;
+    color: #555;
   }
   
   .blog-post h2 {
@@ -56,7 +132,7 @@
   }
   
   .blog-post p {
-    font-size: 1em;
+    font-size: 0.6em;
     line-height: 1.6;
     color: #666;
   }
@@ -83,3 +159,5 @@
   .blog-post li {
     margin-bottom: 5px;
   }
+  
+  

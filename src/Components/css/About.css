@@ -1,6 +1,6 @@
 .padded-cont {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .blue-cont {
@@ -19,6 +19,9 @@
     display: flex;
     justify-content: center;
 }
+    p {
+        font-size: medium;
+    }
 
     .description {
         flex-basis: 50%;
@@ -50,29 +53,9 @@
         height: auto;
     }
 
-    .xc-img {
-        align-self: center;
-        max-width: 80%;
-        height: auto;
-        border: 2px solid black;
-    }
-
-    .codeit-img {
-        max-width: 60%;
-        height: auto;
-        align-self: center;
-        margin: 20px;
-    }
-
-    .sinceparkland-img {
-        width: 84%;
-        height: auto;
-        align-self: center;
-        margin: 20px;
-    }
 
     .surfing-img {
-        width: 100%;
+        width: 80%;
         height: auto;
         align-self: center;
         margin: 20px;

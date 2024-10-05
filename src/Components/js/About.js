@@ -1,7 +1,6 @@
 import '../../utilities.css'
 import "../css/About.css";
 import { Link } from "react-router-dom";
-import Mural from './Mural';
 
 
 const About = () => {
@@ -13,7 +12,6 @@ const About = () => {
                 <hr width ="100px"></hr> */}
                 <div className="AboutSection padded-cont">
                     <div className="half-flex">
-                        {/* <Mural/> */}
                         <img className="profile-img" src="profile_pic.jpg"/>
                     </div>
                     <div className="description">

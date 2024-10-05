@@ -6,7 +6,8 @@ import Experience from './Components/js/Experience.js'
 import Footer from './Components/js/Footer.js'
 import Math from './Components/js/Math.js'
 import Lifestyle from './Components/js/Lifestyle.js'
-// import LifestylePost from './Components/js/LifestylePost.js'
+import MathPost from './Components/js/MathPost.js'
+import LifestylePost from './Components/js/LifestylePost.js';
 // import MathPost from './Components/js/MathPost.js'
 
 import {
@@ -33,7 +34,8 @@ export default function App() {
             <Route exact component={Experience} path="/experience" />
             <Route exact component={Math} path="/math_cs" />
             <Route exact component={Lifestyle} path="/lifestyle" />
-            {/* <Route component={LifestylePost} path="/lifestyle/:id" /> */}
+            <Route exact component={LifestylePost} path="/lifestyle/:id" />
+            <Route component={MathPost} path="/blog/:id" />
             {/* <Route component={MathPost} path="/math_cs/:id" /> Dynamic route for blog posts */}
           </Switch>
         </div>
