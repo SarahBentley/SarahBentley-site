@@ -1,11 +1,26 @@
-# First Blog Post
+---
+title: "Your Article Title"
+date: "2024-01-01"
+---
 
-This is the beginning of the first blog post.
+## Introduction
 
-![Image 1 caption](../../public/running_photo.JPG)
+Welcome to my blog! Here are some images from my recent trip.
 
-This is more content after the first image.
+## Image Gallery
 
-![Image 2 caption](../../public/running_photo.JPG)
+<div class="image-grid">
+    ![Mountain](../hiking.jpeg)
+    ![Lake](../hiking.jpeg)
+    ![Forest](../hiking.jpeg)
+</div>
 
-This is the end of the first blog post.
+## My Thoughts on Nature
+
+Nature is beautiful, and it's essential to preserve it. Here are some thoughts I wanted to share:
+
+> "In every walk with nature one receives far more than he seeks." - John Muir
+
+### Conclusion
+
+Thank you for reading my blog post! Feel free to connect with me through my [Twitter](https://twitter.com) or [Instagram](https://instagram.com).
