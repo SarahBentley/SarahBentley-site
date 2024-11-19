@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import Math1 from './BlogPosts/Math1';
 import Math2 from './BlogPosts/Math2';
+import Math3 from './BlogPosts/Math3';
 import '../css/Blog.css'
 
 const MathPost = () => {
@@ -16,6 +17,11 @@ const MathPost = () => {
     return (
       <div className="blog-post">
         <Math2/>
+      </div>
+  )} else if (id === '3') {
+    return (
+      <div className="blog-post">
+        <Math3/>
       </div>
   )}
 };

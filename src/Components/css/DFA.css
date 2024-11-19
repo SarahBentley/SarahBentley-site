@@ -1,0 +1,18 @@
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px; /* Adjust spacing between images as needed */
+  }
+  
+  .image-item {
+    text-align: center;
+    flex: 1; /* Ensures equal width for each image section */
+  }
+  
+  .image-item img {
+    width: 100%; /* Adjust this based on your needs */
+    max-width: 300px; /* Optional: Set a max width to constrain image size */
+    height: auto;
+    border-radius: 8px; /* Optional: Rounded corners */
+  }

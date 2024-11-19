@@ -19,7 +19,7 @@ const About = () => {
                         <p>
 I am a Master's student at Massachusetts Institute of Technology conducting research in artificial intelligence and machine learning from a mathematical perspective. In June of 2024, I received my Bachelor's degree from MIT with a double major in math and AI and decision-making. I especially enjoy exploring the intersection of machine learning, combinatorics, and linear algebra with the theory of computation. I'm currently using tools in theory of computation to study the reasoning capabilities of large language models.</p>
                         <p>
-                            Check out my <Link to="/experience">experience</Link> page to learn about my research and internships.</p>
+                            Check out my <Link to="/experience">experience</Link> page to learn about my research and internships, my  <Link to="/math_cs">math & cs</Link> page to see my projects and blogs, and my <Link to="/lifestyle">lifestyle</Link> page to learn more about my non-academic interests.</p>
                     </div>
                 </div>
                 {/* <hr width="200px" className="Blue"></hr>

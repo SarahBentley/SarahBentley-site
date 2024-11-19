@@ -12,11 +12,12 @@ const Experience = () => {
                         <hr className="line Blue"></hr>
                     </div>
                     <div className="right">
-                    <h4 className="experience-title">ML Interpretability Researcher</h4>
+                    <h4 className="experience-title">Graduate Researcher</h4>
                         <h4 className="experience-subtitle">MIT, Laboratory for Information & Decision Systems</h4>
                         <h4 className="experience-subtitle">Sept. 2024 - Present</h4>
                             <ul className="experience-listings">
-                            <p><li>Use empirical and theoretical methods to study underlying ‘world models’ of high-performing large language models.</li></p>
+                            <p><li>Use empirical and theoretical methods to study underlying ‘world models’ of high-performing deep models.</li></p>
+                            <p><li>Design methods using AI to distill human reasoning into executable programs.</li></p>
                             </ul>
 
                         <h4 className="experience-title">Theory of Machine Learning Research Intern</h4>

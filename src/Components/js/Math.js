@@ -3,9 +3,14 @@ import MArticleList from './MArticleList';
 
 const MathPosts = [
   {
+    title: "Comparing Transformers and Bilinear Models on Computing Parity",
+    description: "Examining the disparate algorithmic abilities of transformers and simple recurrent models",
+    id: 1
+  },
+  {
     title: "Handwritten Mathematical Expression Recognition for Automated Grading",
     description: "Training models to recognize and parse handwritten mathematical expressions to advance automated grading techniques",
-    id: 1
+    id: 3
   },
   {
     title: "Courseroad Optimization",
