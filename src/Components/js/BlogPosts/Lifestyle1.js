@@ -21,8 +21,8 @@ const Lifestyle1 = () => {
             </div>
           </div>
         </div>
-        <h1>Hiking in Switzerland</h1>
-        <h3>Here are some of my favorite pictures from hikes I did in Switzerland last summer. It is truly a breathtaking place.</h3>
+        <h1>Swiss Beauty</h1>
+        <h3>Photos taken from hikes in Grindelwald, Zermatt, and Stoos.</h3>
         <div className="grid-container">
           <div className="grid-elt seven-four">
             <img src="https://ik.imagekit.io/j91ks0fc6/switzerland/IMG_2072.jpg?updatedAt=1728149787362" alt="Sample Image" />

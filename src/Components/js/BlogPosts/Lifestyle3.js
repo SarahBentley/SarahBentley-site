@@ -6,8 +6,8 @@ const Lifestyle1 = () => {
             <img src="https://ik.imagekit.io/j91ks0fc6/dolomites/landscape.jpg?updatedAt=1728156825422" alt="Sample Image" />
           </div>
         </div>
-        <h1>Hiking in the Dolomites</h1>
-        <h3>The Dolomites, in northern Italy.</h3>
+        <h1>The Dolomites</h1>
+        <h3>Northern Italy.</h3>
         <div className="grid-container">
           <div className="grid-elt four-two">
             <img src="https://ik.imagekit.io/j91ks0fc6/dolomites/IMG_3039.jpg?updatedAt=1728156231990" alt="Sample Image" />

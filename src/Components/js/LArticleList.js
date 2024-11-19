@@ -2,7 +2,7 @@ import React from "react";
 import "../css/Blog.css"; // Import the CSS file
 import { Link } from 'react-router-dom';
 
-const ArticleItem = ({ image, title, date, columnSpan, rowSpan, id, category }) => {
+const LArticleItem = ({ image, title, date, columnSpan, rowSpan, id, category }) => {
   return (
     <div
       className="grid-elt"
@@ -22,12 +22,12 @@ const ArticleItem = ({ image, title, date, columnSpan, rowSpan, id, category }) 
   );
 };
 
-const ArticleList = ({ blogPosts}) => {
+const LArticleList = ({ blogPosts}) => {
   return (
     <div style={{margin: 20}}>
       <div className="grid-container">
         {blogPosts.map((post, index) => (
-          <ArticleItem
+          <LArticleItem
             key={index}
             image={post.image}
             title={post.title}
@@ -43,4 +43,4 @@ const ArticleList = ({ blogPosts}) => {
   );
 };
 
-export default ArticleList;
+export default LArticleList;

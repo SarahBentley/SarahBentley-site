@@ -1,5 +1,5 @@
 import React from "react";
-import ArticleList from './ArticleList'
+import LArticleList from './LArticleList'
 
 const lifestylePosts = [
   {
@@ -33,7 +33,7 @@ const lifestylePosts = [
 
 const Lifestyle = () => {
   return (
-    <ArticleList blogPosts={ lifestylePosts } />
+    <LArticleList blogPosts={ lifestylePosts } />
   );
 };
 

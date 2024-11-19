@@ -68,7 +68,7 @@ const StateDiagram = () => {
       console.log(finalState)
       if (finalState === 'about') path = '/about';
       else if (finalState === 'lifestyle') path = '/lifestyle';
-      else if (finalState === 'math') path = '/math';
+      else if (finalState === 'math') path = '/math_cs';
       else if (finalState === 'experience') path = '/experience';
       else if (finalState === 'home') path = '/';
 
@@ -76,7 +76,7 @@ const StateDiagram = () => {
   };
 
   return (
-    <>
+    <div>
       <div style={{ position: 'absolute', top: '2%', left: '2%', width: "40%", zIndex: 3 }}>
         <text x="0" y="40" textAnchor="middle" dominantBaseline="middle" className="typewriter-text">
           <Typist cursor={{ show: false }}>
@@ -220,7 +220,7 @@ const StateDiagram = () => {
           <line x1="150" y1="0" x2="750" y2="800" stroke="#0d326e67" strokeWidth="30" />
         </svg>
       </div>
-    </>
+    </div>
   );
 };
 

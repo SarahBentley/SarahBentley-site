@@ -150,7 +150,8 @@
   .blog-post img {
     max-width: 100%;
     border-radius: 4px;
-    margin: 20px 0;
+    margin: 20px auto;
+    display: block;
   }
   
   .blog-post blockquote {
@@ -170,4 +171,47 @@
     margin-bottom: 5px;
   }
   
+/* Container for articles */
+.article-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 15px;
+}
+
+/* Each article block */
+.article {
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for each article block */
+.article:hover {
+  background-color: #f9f9f9;
+}
+
+.article-container a {
+  text-decoration: none;
+  color: inherit;  /* Keep text color consistent */
+}
+
+/* Styling for article headline */
+.article h2 {
+  margin: 0 0 10px 0;
+  font-size: 2em;
+  text-decoration: none;
+}
+
+/* Styling for article description */
+.article p {
+  font-size: 16px;
+  color: #666;
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* Space between article blocks */
+.article + .article {
+  margin-top: 20px;
+}
   
