@@ -3,7 +3,7 @@ const Math1 = () => {
         <div>
             <h1>Comparing Transformers and Bilinear Models on Computing Parity</h1>
             <h3>I completed this research while working as a research intern at Ecole Polytechnique Federale Lausanne (EPFL). I designed experiments comparing the performance of a mini recursive bilinear model to transformer variants on simulating a parity deterministic finite automata (DFA). While the simplistic bilinear model mimicked the DFA’s transition function, the more complicated transformers – even when trained on chain-of-thought data – did not generalize well. My full report is{' '}
-                <a href="https://humdrum-peridot-bf0.notion.site/Learning-Deterministic-Finite-Automata-62a5b74963ba4277b24d0fecfd1e45c6">
+                <a href="https://sbentley.notion.site/Learning-Deterministic-Finite-Automata-62a5b74963ba4277b24d0fecfd1e45c6">
                      here,
                 </a>{' '}
                 and my Github is{' '}
