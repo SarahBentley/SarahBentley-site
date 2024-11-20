@@ -1,4 +1,3 @@
-import '../../css/DFA.css'
 const Math1 = () => {
     return (
         <div>
@@ -21,7 +20,7 @@ const Math1 = () => {
             <img src="https://ik.imagekit.io/j91ks0fc6/bilinear.png?updatedAt=1732033919333"></img>
 
             <h2>Windowed Transformer</h2>
-            <h3>After tweaking many hyperparameters, a transformer with a small attention window and no positional encoding generalizes perfectly out of distribution. This model was trained of sequences up to length 10.</h3>
+            <h3>After tweaking many hyperparameters, a transformer with a small attention window and no positional encoding generalizes perfectly out of distribution. This model was trained on sequences up to length 10. Notably, restricting the attention window forces the transformer to act recurrently, allowing generalization to new lengths.</h3>
             <img src="https://ik.imagekit.io/j91ks0fc6/windowed_transformer.png?updatedAt=1732033905394"></img>
 
         </div>

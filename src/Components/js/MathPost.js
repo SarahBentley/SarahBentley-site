@@ -3,6 +3,9 @@ import { useParams } from 'react-router-dom';
 import Math1 from './BlogPosts/Math1';
 import Math2 from './BlogPosts/Math2';
 import Math3 from './BlogPosts/Math3';
+import Math4 from './BlogPosts/Math4';
+import Math5 from './BlogPosts/Math5';
+import Math6 from './BlogPosts/Math6';
 import '../css/Blog.css'
 
 const MathPost = () => {
@@ -22,6 +25,21 @@ const MathPost = () => {
     return (
       <div className="blog-post">
         <Math3/>
+      </div>
+  )} else if (id === '4') {
+    return (
+      <div className="blog-post">
+        <Math4/>
+      </div>
+  )} else if (id === '5') {
+    return (
+      <div className="blog-post">
+        <Math5/>
+      </div>
+  )} else if (id === '6') {
+    return (
+      <div className="blog-post">
+        <Math6/>
       </div>
   )}
 };
