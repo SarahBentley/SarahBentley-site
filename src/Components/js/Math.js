@@ -14,6 +14,16 @@ const MathPosts = [
     id: 3
   },
   {
+    title: "SpaceNet Cloud: Web-based Modeling and Simulation Analysis for Space Exploration Logistics",
+    description: "Conference paper for the American Institute of Aeronautics and Astronautics",
+    id: 7
+  },
+  {
+    title: "Space Logistics Exploration Campaign Scenario Specification for SpaceNet",
+    description: "Conference paper for the American Institute of Aeronautics and Astronautics",
+    id: 8
+  },
+  {
     title: "Chips on an Infinite Chessboard",
     description: "Math Project Laboratory - Studying the redistribution of chips on an infinite chessboard.",
     id: 4
