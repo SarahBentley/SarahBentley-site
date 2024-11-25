@@ -8,6 +8,7 @@ import Math5 from './BlogPosts/Math5';
 import Math6 from './BlogPosts/Math6';
 import Math7 from './BlogPosts/Math7';
 import Math8 from './BlogPosts/Math8';
+import Math9 from './BlogPosts/Math9';
 import '../css/Blog.css'
 
 const MathPost = () => {
@@ -52,6 +53,11 @@ const MathPost = () => {
     return (
       <div className="blog-post">
         <Math8/>
+      </div>
+  )} else if (id === '9') {
+    return (
+      <div className="blog-post">
+        <Math9/>
       </div>
   )}
 };

@@ -9,6 +9,11 @@ const MathPosts = [
     id: 1
   },
   {
+    title: "Blog: P vs. NP in Society, and Where AI Fits in",
+    description: "A theory of computation enthusiast's view of P vs. NP and how the question connects to artificial intelligence",
+    id: 9
+  },
+  {
     title: "Handwritten Mathematical Expression Recognition for Automated Grading",
     description: "Training models to recognize and parse handwritten mathematical expressions to advance automated grading techniques",
     id: 3
